@@ -12,7 +12,7 @@ def create_project():
     os.system(f'mkdir {folder}') # Making the folder
     os.chdir(f'{projects}/{folder}')
 
-    os.system('touch README.md') # creating a readme file
+    os.system('touch README.md') # creating a readme.md file
 
     os.system('subl .')
 
