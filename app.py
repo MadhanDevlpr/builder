@@ -21,10 +21,9 @@ def create_project():
 
     os.system('touch app.py') # creating a python file
 
-    speak('Your project has been successfully established.')
-
     os.system('subl .')
 
 
 
 create_project()
+speak('Your project has been successfully established.')
